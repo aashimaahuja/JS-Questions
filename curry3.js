@@ -7,4 +7,6 @@ function sum2(...args){
   let total = args.reduce((ac,cv) => ac+cv,0);
   return inner;
 }
+
+console.log('curry 3');
 console.log(sum2(1)(2)(4)())

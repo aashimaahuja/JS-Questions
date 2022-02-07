@@ -13,5 +13,6 @@ function curry(fn) {
   };
 }
 
+console.log('curry 1');
 let curried = curry(multiply);
 console.log(curried(2, 3)(3));
